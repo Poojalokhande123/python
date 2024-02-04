@@ -1,3 +1,8 @@
+//GIT AND Github:
+1-security
+2-code merge
+3-version control
+
 Step 1:
 Download and install git 
 https://git-scm.com/download/win
@@ -39,7 +44,17 @@ git push -u origin main
 //give authorisation
 
 
-
-
 folder 1                 folder2                folder3               folder4
 working directory        staging                local repo            remote repo
+
+git diff      ==> to check difference between working directory and staging
+git status    ==> to check file tracked or untracked
+git log       ==> to check all the commit
+git show HEAD ==> to check last commit
+
+
+--scenario
+
+git chekout HEAD filename   ==>   to make working directory as same as last commit
+git reset HEAD filename     ==>   to make staging as same as last commit
+git reset   

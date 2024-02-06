@@ -43,6 +43,9 @@ git push -u origin main
 // first time username and password will be asked
 //give authorisation
 
+--to access  Readme.md file in project use first five commands after creating
+git repo.
+
 
 folder 1                 folder2                folder3               folder4
 working directory        staging                local repo            remote repo
@@ -55,6 +58,6 @@ git show HEAD ==> to check last commit
 
 --scenario
 
-git chekout HEAD filename   ==>   to make working directory as same as last commit
+git checkout HEAD filename   ==>   to make working directory as same as last commit
 git reset HEAD filename     ==>   to make staging as same as last commit
 git reset   
